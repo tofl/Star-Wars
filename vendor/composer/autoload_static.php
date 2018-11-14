@@ -8,6 +8,7 @@ class ComposerStaticInitcb08e3a7e87e7489ceecea5f2673c2f4
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
     );
 
@@ -22,11 +23,23 @@ class ComposerStaticInitcb08e3a7e87e7489ceecea5f2673c2f4
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Debug\\' => 24,
             'Silex\\' => 6,
+            'SWAPI\\Tests\\' => 12,
+            'SWAPI\\' => 6,
+        ),
+        'R' => 
+        array (
+            'React\\Promise\\' => 14,
         ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Stream\\' => 18,
+            'GuzzleHttp\\Ring\\' => 16,
+            'GuzzleHttp\\' => 11,
         ),
     );
 
@@ -63,6 +76,18 @@ class ComposerStaticInitcb08e3a7e87e7489ceecea5f2673c2f4
         array (
             0 => __DIR__ . '/..' . '/silex/silex/src/Silex',
         ),
+        'SWAPI\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rmasters/swapi/tests',
+        ),
+        'SWAPI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rmasters/swapi/src',
+        ),
+        'React\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/promise/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -70,6 +95,18 @@ class ComposerStaticInitcb08e3a7e87e7489ceecea5f2673c2f4
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'GuzzleHttp\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/streams/src',
+        ),
+        'GuzzleHttp\\Ring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/ringphp/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
     );
 
@@ -79,6 +116,13 @@ class ComposerStaticInitcb08e3a7e87e7489ceecea5f2673c2f4
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
+        ),
+        'J' => 
+        array (
+            'JsonMapper' => 
+            array (
+                0 => __DIR__ . '/..' . '/netresearch/jsonmapper/src',
             ),
         ),
     );
